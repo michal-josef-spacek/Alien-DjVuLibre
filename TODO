@@ -4,7 +4,9 @@ TODO
 2. Check MY::install
 3. Check dependencies.
 4. Add repository, bugzilla to Makefile.PL
-5.
+5. Comment in alienfile
+6. How to detect new versions.
+7.
 
 Applied
 =======
