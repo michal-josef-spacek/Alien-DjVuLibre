@@ -1,0 +1,42 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.87.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: RIPEMD160
+
+SHA256 0e51aae4a664e4e91863530eb817ec65b85d42a809b0c04c27c7114a084c02bf Changes
+SHA256 ed33b8658fde2231479c7d0dbc35fb8b48179514d659ad7aae84539ef48462c7 DjVuLibre.pm
+SHA256 6a01c8ca9cc78d9c46a65d1b8ae61f1a37b77cdf5f0a4075d85ed227e0d1784b LICENSE
+SHA256 6a2d3ab22d5b79a5f156dea9d01e4d424f10b03327533e86af0961c2a106f4e4 MANIFEST
+SHA256 33a1e6e3a309c0aab63fd281a252be34e6e2ebfd86509291beefa1117c3f3749 Makefile.PL
+SHA256 67c9606294440100b40ead509d26eb28599ca74321a0441f35454cad54a32b2c alienfile
+SHA256 3232a4c7f745cfad0cfb34c3cd01ceefe45b33ee4962316a954a5b5ca1e4ee68 examples/ex1.pl
+SHA256 ee065bfe81f06aece38d9352ac485347eac7dfe621b8304f9e44f7e0dbab34af t/Alien-DjVuLibre/01-use.t
+SHA256 7982486553b513af3858a5a6ce5507e652eb2336f3fe00516dd9ac574c8e665e t/Alien-DjVuLibre/02-version.t
+SHA256 1f8e930a6ce061895ce00d62a241205a434aecd63339ed2de79974859db4e56e t/Alien-DjVuLibre/03-xs.t
+SHA256 dd17d32df2423544a2a90d4dbfd906e78330ef4c39cd5b86b4bbff69afd86b7d xt/Alien-DjVuLibre/01-pod_coverage.t
+SHA256 aa581c1c66c15acdfc4d54897f7e9e55021451c45103ff70fbc99ffa765be23f xt/Alien-DjVuLibre/02-pod.t
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBAwAdFiEERTLc1QTxqWhVvPeegmqNLzlXaRcFAmJzCeYACgkQgmqNLzlX
+aReEwgv/YIOdiFnSoWsHK3kD8UYuFWC6WYfyrG326pSoMQfkbZO9UtGF7su5aNlz
+BVD/Ovoi8kxmE/9n7gJ0ipQ17cVsoWINn55dsgYQQLjw5TcxRcy4I3EVoZuWNt0N
+Osjgf6FXuOAnII8yqWuG/H9/HATHt+9GswMc4WJXzScLAcqbQLHjXNP1jvTqmlSk
+uRCOcIpyGvf6csbsPNdNsuhVoeyyjMeK3AldroAyxCNF5HGpXZGYoDbfjECStDSN
+0ljRTATVVc0d5QRMSJKxDDWiVNDb/RLNh2CSjuIoPoJhIDGnZsXdEUIr8wWGjPg1
+UkPObGv13OJ1CXX3vwzwSo6U24XiMlNmTfP5LIHOtCZmjyQVAw+Co21tsR4qEN8O
+f3xVAW35E9yQ6kInihNZDQn4pY23kUhU6TqSZ3AZ8vlTwYgpV4bVJOazYJpcKFqt
+gO/7nc9ujFMU5mZXyeG4dTrojNaSUe/aFS9MueBuE4fQY13PpSZ2FGifkSy/TDKo
+69luNRN7
+=TKBX
+-----END PGP SIGNATURE-----
