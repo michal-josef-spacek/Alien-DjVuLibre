@@ -9,7 +9,10 @@ use Test::More;
 
 alien_ok 'Alien::DjVuLibre';
 my $xs = do { local $/; <DATA> };
-xs_ok $xs, with_subtest {
+xs_ok {
+	xs => $xs,
+	verbose => 0,
+}, with_subtest {
 	my ($module) = @_;
 	my $version = $module->version;
 	ok $version;
