@@ -5,8 +5,10 @@ use warnings;
 
 use Alien::DjVuLibre;
 use Test::Alien;
+use Test::Alien::Diag;
 use Test::More;
 
+alien_diag 'Alien::DjVuLibre';
 alien_ok 'Alien::DjVuLibre';
 my $xs = do { local $/; <DATA> };
 xs_ok {
