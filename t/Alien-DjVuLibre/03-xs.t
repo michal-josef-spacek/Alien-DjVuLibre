@@ -11,12 +11,6 @@ alien_ok 'Alien::DjVuLibre';
 my $xs = do { local $/; <DATA> };
 xs_ok {
 	xs => $xs,
-	cbuilder_compile => {
-		extra_compiler_flags => Alien::DjVuLibre->runtime_prop->{extra_compiler_flags},
-	},
-	cbuilder_link => {
-		extra_linker_flags => Alien::DjVuLibre->runtime_prop->{extra_linker_flags},
-	},
 	verbose => 0,
 }, with_subtest {
 	my ($module) = @_;

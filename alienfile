@@ -35,8 +35,14 @@ share {
 			push @extra_linker_flags, qw(-framework CoreFoundation);
 		}
 
-		$build->runtime_prop->{extra_compiler_flags} = join ' ', @extra_compiler_flags;
-		$build->runtime_prop->{extra_linker_flags}   = join ' ', @extra_linker_flags;
+		for my $type ('', '_static') {
+			$build->runtime_prop->{"cflags$type"} = join ' ',
+				$build->runtime_prop->{"cflags$type"},
+				@extra_compiler_flags;
+			$build->runtime_prop->{"libs$type"}   = join ' ',
+				$build->runtime_prop->{"libs$type"},
+				@extra_linker_flags;
+		}
 	};
 	plugin 'Gather::IsolateDynamic';
 };
