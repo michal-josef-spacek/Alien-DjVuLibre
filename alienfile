@@ -3,6 +3,7 @@ use alienfile;
 plugin 'PkgConfig' => 'ddjvuapi';
 
 share {
+	requires 'ExtUtils::CppGuess';
 	plugin 'Decode::SourceForge';
 	start_url 'https://sourceforge.net/projects/djvu/files/DjVuLibre/3.5.28/';
 	plugin 'Download' => (
@@ -16,5 +17,26 @@ share {
 		'%{make}',
 		'%{make} install',
 	];
+	after gather => sub {
+		my ($build) = @_;
+
+		my @extra_compiler_flags;
+
+		if( $^O eq 'MSWin32' ) {
+			# possibly only needed for MinGW
+			push @extra_compiler_flags, qw(-DDDJVUAPI_EXPORT -DMINILISPAPI_EXPORT);
+		}
+
+		my @extra_linker_flags;
+
+		push @extra_linker_flags, ExtUtils::CppGuess->new->linker_flags;
+
+		if( $^O eq 'darwin' ) {
+			push @extra_linker_flags, qw(-framework CoreFoundation);
+		}
+
+		$build->runtime_prop->{extra_compiler_flags} = join ' ', @extra_compiler_flags;
+		$build->runtime_prop->{extra_linker_flags}   = join ' ', @extra_linker_flags;
+	};
 	plugin 'Gather::IsolateDynamic';
 };
