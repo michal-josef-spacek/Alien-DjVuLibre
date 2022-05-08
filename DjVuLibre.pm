@@ -82,6 +82,10 @@ Michal Josef Špaček L<mailto:skim@cpan.org>
 
 L<http://skim.cz>
 
+=head1 CONTRIBUTORS
+
+Zakariyya Mughal L<zaki.mughal@gmail.com>
+
 =head1 LICENSE AND COPYRIGHT
 
 © 2022 Michal Josef Špaček
