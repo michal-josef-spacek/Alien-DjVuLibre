@@ -1,6 +1,7 @@
 0.02
  - Add alien_diag to test (thanks Zakariyya Mughal).
  - Add missing dependency for Test::NoWarnings (thanks Zakariyya Mughal).
+ - Add repository and bugtracker to Makefile.PL.
  - Enable shared and static builds (thanks Zakariyya Mughal).
  - Enable Decode::SourceForge (thanks Zakariyya Mughal).
  - Improve build for MacOS and MinGW (thanks Zakariyya Mughal).

@@ -19,6 +19,12 @@ my %WriteMakefileArgs = (
 	},
 	'DISTNAME' => 'Alien-DjVuLibre',
 	'LICENSE' => 'bsd',
+	'META_MERGE' => {
+		'resources' => {
+			'bugtracker' => 'https://github.com/michal-josef-spacek/Alien-DjVuLibre/issues',
+			'repository' => 'https://github.com/michal-josef-spacek/Alien-DjVuLibre',
+		},
+	},
 	'NAME' => 'Alien::DjVuLibre',
 	'PREREQ_PM' => {
 		'Alien::Base' => 0,

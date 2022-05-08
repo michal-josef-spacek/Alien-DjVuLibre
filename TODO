@@ -3,7 +3,6 @@ TODO
 1. Improve example in doc.
 2. Check MY::install
 3. Check dependencies.
-4. Add repository, bugzilla to Makefile.PL
 6. How to detect new versions.
 7. Generate README file
 8.
@@ -11,4 +10,7 @@ TODO
 Applied
 =======
 5. Comment in alienfile
+OK [20220508] skim
+
+4. Add repository, bugzilla to Makefile.PL
 OK [20220508] skim
