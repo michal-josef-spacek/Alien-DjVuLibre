@@ -1,3 +1,5 @@
+0.03
+
 0.02 2022-05-08T23:00:21+02:00
  - Add alien_diag to test (thanks Zakariyya Mughal).
  - Add missing dependency for Test::NoWarnings (thanks Zakariyya Mughal).
