@@ -28,7 +28,9 @@ my %WriteMakefileArgs = (
 	},
 	'TEST_REQUIRES' => {
 		'Test::Alien' => 0,
+		'Test::Alien::Diag' => 0,
 		'Test::More' => 0,
+		'Test::NoWarnings' => 0,
 	},
 	'VERSION' => '0.01',
 	'test' => {
