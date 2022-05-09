@@ -45,7 +45,8 @@ jobs:
           cpanm --notest --with-recommends --with-suggests \
             ExtUtils::MakeMaker \
             Alien::Build::MM \
-            Alien::Build::Plugin::Decode::SourceForge
+            Alien::Build::Plugin::Decode::SourceForge \
+            Module::Signature
       - name: Make distribution
         shell: bash
         run: |
