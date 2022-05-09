@@ -84,7 +84,7 @@ L<http://skim.cz>
 
 =head1 CONTRIBUTORS
 
-Zakariyya Mughal L<zaki.mughal@gmail.com>
+Zakariyya Mughal L<mailto:zaki.mughal@gmail.com>
 
 =head1 LICENSE AND COPYRIGHT
 
