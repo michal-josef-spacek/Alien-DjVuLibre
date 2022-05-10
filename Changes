@@ -1,4 +1,6 @@
 0.04
+ - Fix require version for ExtUtils::CppGuess (thanks Zakariyya Mughal).
+ - Fix signing for CI (thanks Zakariyya Mughal).
 
 0.03 2022-05-09T08:35:58+02:00
  - Add README file.
