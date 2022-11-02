@@ -8,7 +8,7 @@ on:
 
 env:
   PKG_NAME: DjVuLibre
-  PKG_UBUNTU: libdjvulibre-dev
+  PKG_UBUNTU: libdjvulibre-dev djvulibre-bin
   PKG_HOMEBREW: djvulibre
   PKG_MSYS2_MINGW64: mingw-w64-x86_64-djvulibre
   PKG_MSYS2_MINGW64_DEPS: >-
