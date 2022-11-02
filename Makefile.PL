@@ -16,6 +16,7 @@ my %WriteMakefileArgs = (
 		'Alien::Build::MM' => '0.32',
 		'Alien::Build::Plugin::PkgConfig::Negotiate' => 0,
 		'ExtUtils::MakeMaker' => '6.76',
+		'File::Which' => '0',
 	},
 	'DISTNAME' => 'Alien-DjVuLibre',
 	'LICENSE' => 'bsd',
