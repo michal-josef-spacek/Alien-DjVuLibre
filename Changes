@@ -1,4 +1,4 @@
-0.05
+0.05 2022-11-02T16:29:41+01:00
  - Add probe for required tools for system install.
  - Remove obsolete configure require (Alien::Build).
 
