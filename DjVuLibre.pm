@@ -48,6 +48,8 @@ Not yet.
 
 =head1 EXAMPLE
 
+=for comment filename=alien_djvulibre_variables.pl
+
  use strict;
  use warnings;
 
