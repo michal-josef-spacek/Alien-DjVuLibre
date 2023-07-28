@@ -36,7 +36,7 @@ Alien::DjVuLibre - Find or download and install DjVuLibre.
 
 Some packages insist on using DjVuLibre library.
 
-This package detect system DjvuLibre library or install own.
+This package detect system DjVuLibre library or install own.
 
 =head1 SUBROUTINES/METHODS
 

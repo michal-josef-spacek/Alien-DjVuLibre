@@ -19,7 +19,7 @@ SYNOPSIS
 DESCRIPTION
     Some packages insist on using DjVuLibre library.
 
-    This package detect system DjvuLibre library or install own.
+    This package detect system DjVuLibre library or install own.
 
 SUBROUTINES/METHODS
     All methods are inherited from Alien::Base.
